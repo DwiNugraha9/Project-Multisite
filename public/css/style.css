@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+/* banner */
+#banner {
+    position: relative;
+    background-image: linear-gradient(to right, #2674ED, #3482f7);
+    color: #fff;
+    padding: 80px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 140px;
+}
+
+/* icon */
+#icon{
+    position: relative;
+    background-image: linear-gradient(to right, #2674ED, #3482f7);
+    color: #fff;
+    padding: 80px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* coba */
+#coba{
+    position: relative;
+    background-image: linear-gradient(to right, #A2BEF6, #A2BEF6);
+    color: #fff;
+    padding: 80px;
+}
+
+/* fitur */
+#fitur{
+    position: relative;
+    background-image: linear-gradient(to right, #2674ED, #3482f7);
+    color: #fff;
+    padding: 80px;
+}
+
+/* foot */
+#foot{
+    position: relative;
+    background-image: white;
+    color: #fff;
+    padding: 80px;
+}
+
+

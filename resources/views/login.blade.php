@@ -25,23 +25,57 @@
 <body style="background-color : #bed5fa;">
 
     <div>
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" style="background-color : #fff;">
-            <a href="/" class="align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src="/img/logodms.png" style="height: 40px;  width: 75px;">
-            </a>
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg" style="background-color: #fff;">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="/img/logodms.png" style="height: 40px;  width: 70px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
             
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Produk</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Layanan</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Integrasi</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Lainnya</a></li>
-            </ul>
-
-            <div class="col-md-2 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">Masuk</button>
-                <button type="button" class="btn btn-primary">Daftar</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-sm-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Produk
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Produk 1</a>
+                                <a class="dropdown-item" href="#">Produk 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Lainnya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Layanan
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Integrasi 1</a>
+                                <a class="dropdown-item" href="#">Integrasi 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Lainnya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Integrasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lainnya</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/login" class="btn btn-outline-primary my-2 mr-sm-2" type="submit">Login</a>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/register" class="btn btn-primary my-2 my-sm-0" type="submit">Daftar </a>
+                    </form>
+                </div>
             </div>
-        </header>
+        </nav>
+    </section>
     </div>
 
 
@@ -54,51 +88,42 @@
             <div class="col-xl-11 col-lg-10 col-md-9">
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
-                    <div class="card-body p-0">
+                    <div class="card-body p-0   ">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6">
-                               <img src="/img/pic1.png" style="margin-left: -15px;  width: 100%;">
+                            <div class="col-md-6">
+                               <img src="/img/pic1.png" style="margin-left: -15px; margin-bottom: -15px; width: 100%;">
                             </div>
-                            <div class="col-lg-6">
-                                <div class="p-5">
-                                    <div class="col-md-4 right-column">
-                                        <h3 class="h4 text-gray-900 ">Login</h3>
-                                    </div>
-                                    <br>
-                                    <form class="user">
-                                        <div class="form-group">
-                                            <label class="control-label control-label-bold">Email</label>
-                                            <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Masukkan alamat email anda ...">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label control-label-bold">Password</label>
-                                            <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" aria-describedby="passwordHelp"
-                                                placeholder="Masukkan password ...">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Ingatkan saya</label>
-                                            </div>
-                                        </div>
-                                        <div>
-                                        <div class="text-left">
-                                            <a class="small" href="/forgot-password">Lupa Password?</a>
-                                        </div>
-                                        <br>
-                                        </div>
-                                        <a href="/" class="btn btn-warning btn-user btn-block">
-                                            Login
-                                        </a>
-                                    </form>
-                                    <hr>
-                                    <div class="text-left">
-                                        <p class="small">Belum punya akun? <a href="/register">Daftar untuk mencoba DMS (Gratis!)</a></p>
-                                    </div>
+                            <div class="col-md-5" style="height: 550px;">
+                                <img src="img/logodms.png" style="margin-top: 30px; width: 70px;">
+
+                                <h4 style="color: #004DC3; margin-top: 19px; font-weight: bolder; ">Login</h4>
+                                    <label style="margin-top: 17px; color: #2674ED;">Email</label>
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+                                    <label style="margin-top: 30px; color: #2674ED;">Password</label>
+                                    <input type="password" id="pass" class="form-control" placeholder="Password" required autofocus>
+                                <br>
+
+                                <div class="custom-control custom-checkbox small">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                                    <label class="custom-control-label" for="customCheck">Ingatkan saya</label>
+                                </div>
+
+                                <br>
+
+                                <div class="text-left">
+                                    <a class="small" href="/forgot-password">Lupa Password?</a>
+                                </div>
+                                
+                                <a href="/index" class="btn btn-warning btn-user btn-block">
+                                Login
+                                </a>
+
+                                <hr>
+                                
+                                <div class="text-left">
+                                    <p class="small">Belum punya akun? <a href="/register">Daftar untuk mencoba DMS (Gratis!)</a></p>
                                 </div>
                             </div>
                         </div>

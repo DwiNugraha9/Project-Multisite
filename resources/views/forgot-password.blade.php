@@ -25,25 +25,59 @@
 <body style="background-color : #bed5fa;">
 
     <div>
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" style="background-color : #fff;">
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg" style="background-color: #fff;">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="/img/logodms.png" style="height: 40px;  width: 70px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
             
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Produk</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Layanan</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Integrasi</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Lainnya</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">Masuk</button>
-                <button type="button" class="btn btn-primary">Daftar</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-sm-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Produk
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Produk 1</a>
+                                <a class="dropdown-item" href="#">Produk 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Lainnya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Layanan
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Integrasi 1</a>
+                                <a class="dropdown-item" href="#">Integrasi 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Lainnya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Integrasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lainnya</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/login" class="btn btn-outline-primary my-2 mr-sm-2" type="submit">Login</a>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/register" class="btn btn-primary my-2 my-sm-0" type="submit">Daftar </a>
+                    </form>
+                </div>
             </div>
-        </header>
+        </nav>
+    </section>
     </div>
-
+    
     <div class="container">
 
         <!-- Outer Row -->
@@ -55,23 +89,22 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>
+                            <div class="col-lg-6 d-none d-lg-block" style="background-color: #004DC3;">
+
+                            </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
-                                    <div class="text-center">
-                                        <h3 class="h4 text-gray-900 mb-2">Lupa password?</h3>
-                                        <p class="mb-4">Masukkan alamat email Anda di bawah ini dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi Anda!</p>
+                                    <div class="text-left">
+                                    <h4 style="color: #004DC3; margin-top: 19px; font-weight: bolder; ">Lupa Password?</h4>
+                                        <p style="color: #004DC3; margin-top: 19px; ">Masukkan alamat email Anda di bawah ini dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi Anda!</p>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
-                                            <label class="control-label control-label-bold">Email</label>
-                                            <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Masukkan alamat email anda ...">
+                                            <label style="margin-top: 17px; color: #2674ED;">Email</label>
+                                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                                         </div>
-                                        <a href="/login" class="btn btn-primary btn-user btn-block">
-                                            Reset Password
-                                        </a>
+                                        
+                                        <a href="/login" class="btn btn-primary btn-block">Reset Password</a>
                                     </form>
                                     <hr>
                                     <div class="text-left">
