@@ -38,6 +38,9 @@ Route::get('/manajemenuser', function () {
 });
 
 Route::get('/', function () {
-    return view('landingpage');
+    return view('otp');
 });
 
+Route::get('/otp', function () {
+    return view('otp');
+});
