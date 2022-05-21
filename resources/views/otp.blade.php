@@ -20,6 +20,9 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
     <style>
         .back_color {
             background-color: #BED5FA;
@@ -42,15 +45,24 @@
             font-size: 16pt;
         }
 
+        .container_tulisan{
+            width: 530px;
+            margin-top: 10px; 
+            margin-left: auto; 
+            margin-right: auto;
+            color: white;
+        }
+
     </style>
 
+    <!-- untuk slider -->
     <style>
         .slidecontainer {
             width: 500px;
             margin-left: auto; 
             margin-right: auto;
             margin-top: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
 
         .slider {
@@ -104,6 +116,23 @@
                             <input type="range" min="1" max="100" value="0" class="slider">
                         </div>
 
+                        <div class="container_tulisan">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <b>OTP</b>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="pull-right"><b>Sukses</b></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                            <div class="col-xs-12" style="text-align: center;">
+                                <img src="img/otp.png">
+                            </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
