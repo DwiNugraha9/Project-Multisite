@@ -53,6 +53,43 @@
             color: white;
         }
 
+        .tulisan1{
+            width: 530px;
+            margin-top: 10px; 
+            margin-left: auto; 
+            margin-right: auto;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .tulisan2{
+            width: 530px;
+            margin-top: 10px; 
+            margin-left: auto; 
+            margin-right: auto;
+            text-align: center;
+            color: white;
+            font-size: 13px;
+        }
+
+        .wadah3{
+            width: 600px;
+            margin-top: 10px; 
+            margin-left: auto; 
+            margin-right: auto;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .wadah4{
+            width: 320px;
+            margin-top: 30px; 
+            margin-left: auto; 
+            margin-right: auto;
+            margin-bottom: 60px;
+        }
+
     </style>
 
     <!-- untuk slider -->
@@ -131,6 +168,36 @@
                                 <img src="img/otp.png">
                             </div>
                             </div>
+
+                            <div class="tulisan1">
+                                <b>VERIFIKASI E-MAIL</b>
+                            </div>
+
+                            <div class="tulisan2">
+                                Silahkan masukkan kode verifikasi yang kamu terima lewat email
+                            </div>
+
+                            <div class="wadah3">
+                                <div class="row">
+                                    <div class="col-xs-4" style="color: white; font-size : 12pt; padding-top: 5px;">
+                                        <label class="pull-right">Masukkan Kode OTP</label>
+                                    </div>
+                                    <div class="col-xs-8">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-xs-4"></div>
+                                    <div class="col-xs-8">
+                                        <label style="color:black; margin-top: 5px; font-size: 8pt;">Kirim Ulang OTP</label>
+                                        &nbsp;&nbsp;
+                                        <label style="color: white; font-size: 7pt;"><i>Kamu bisa mengirim ulang kode verifikasi kamu setelah 30d</i></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wadah4">
+                                <button class="btn" style="background-color: white; color:black; width: 150px;"><b>Batal</b></button>
+                                &nbsp;&nbsp;
+                                <button class="btn" style="background-color: #083170; color:white; width: 150px;"><b>Selanjutnya</b></button>
+                            </div>
                         </div>
                         
                     </div>
@@ -150,5 +217,12 @@
     <script src="js/sb-admin-2.min.js"></script>
 
 </body>
-
+<footer style="background-color: #002866;">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="margin-top: 10px; height: 55px; background-color: rgba(0, 0, 0, 0.2);">
+    <span style="color: #858796;">© 2022 Copyright:</span>
+    <a class="text-white" href="#">PT. Digital Multisite Indonesia</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 </html>
