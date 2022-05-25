@@ -44,3 +44,11 @@ Route::get('/', function () {
 Route::get('/otp', function () {
     return view('otp');
 });
+
+Route::get('/', function () {
+    return view('berhasil');
+});
+
+Route::get('/berhasil', function () {
+    return view('berhasil');
+});
