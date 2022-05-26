@@ -104,7 +104,7 @@
                                     <label style="margin-top: 30px; color: #2674ED;">Password</label>
                                     <input type="password" id="pass" class="form-control" placeholder="Password" required autofocus>
                                 <br>
-
+ 
                                 <div class="custom-control custom-checkbox small">
                                     <input type="checkbox" class="custom-control-input" id="customCheck">
                                     <label class="custom-control-label" for="customCheck">Ingatkan saya</label>
