@@ -37,6 +37,10 @@ Route::get('/manajemenuser', function () {
     return view('manajemenuser');
 });
 
+Route::get('/manajemenproduk', function () {
+    return view('manajemenproduk');
+});
+
 Route::get('/', function () {
     return view('otp');
 });
@@ -45,9 +49,6 @@ Route::get('/otp', function () {
     return view('otp');
 });
 
-Route::get('/', function () {
-    return view('berhasil');
-});
 
 Route::get('/berhasil', function () {
     return view('berhasil');
