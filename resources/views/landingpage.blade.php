@@ -248,7 +248,8 @@
                         <p>Otomasi proses bisnis dari terima pesanan, sinkronisasi stok, integrasi marketplace,
                             aplikasi kasir, jasa pengiriman, hingga pencatatan akuntansi.
                         </p>
-                        <a href="/register" class="btn btn-warning">Coba Gratis!</a>
+                        <h2 href="/register" class="btn btn-warning"><label style="font-size: 13px; color: white;"><b> Coba Gratis!</b> </label></h2>
+                        
                     </div>
                     <div class="col-md-6">
                         <img src="img/laptop.png" style="height: 383px;  width: 380px;">
@@ -301,7 +302,7 @@
                     <h4 style="text-transform: uppercase; font-weight: bolder;">Fitur DMS Omni-Channel</h4>
                 </div>
                 
-                <div class="row">
+                <div class="row" style="margin-top: 50px;">
                     <div class="col-md-3">
                         <ul class="menu">
                                 <a class="btn btn-primary btn-block" style="text-align: left" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -324,11 +325,7 @@
                         </ul>
                     </div>
                     <div class="col-md-8">
-                        <div class="collapse" id="collapseExample">
-                            <div class="card card-body" style="color: black;">
-                              <img src="img/katalog.png" style="height: 400px;  width: 660px;">
-                            </div>
-                        </div>
+                            <img src="img/katalog.png" style="width: 85%; height: auto;">
                     </div>
 
 
@@ -348,7 +345,7 @@
                 </div>
                 <br>
                 <form style="text-align: center;">
-                    <a href="/register" class="btn btn-warning">Coba Gratis!</a>
+                <h2 href="/register" class="btn btn-warning"><label style="font-size: 13px; color: white;"><b> Coba Gratis!</b> </label></h2>
                 </form>
             </div>
         </div> 

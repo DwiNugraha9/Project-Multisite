@@ -25,6 +25,10 @@ Route::get('/forgot-password', function () {
     return view('forgot-password');
 });
 
+Route::get('/landingpage', function () {
+    return view('landingpage');
+});
+
 Route::get('/register', function () {
     return view('register');
 });
